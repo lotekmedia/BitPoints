@@ -10,12 +10,12 @@
   ],
   "scripts": {
     "server": "node app.js",
-    "start": "npm run server",
+    "start": "node app.js",
     "lint": "eslint ."
   },
   "engines": {
-    "node": "4.2.*",
-    "npm": "2.14.7"
+    "node": "4.2.4",
+    "npm": "2.15.11"
   },
   "dependencies": {
     "body-parser": "^1.15.0",
